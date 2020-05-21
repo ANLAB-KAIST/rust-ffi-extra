@@ -1,0 +1,20 @@
+[package]
+name = "ffi-extra"
+version = "0.0.1"
+authors = ["Keunhong Lee <dlrmsghd@gmail.com>", "ANLAB <support@an.kaist.ac.kr>"]
+edition = "2018"
+license = "MIT"
+publish = false
+description = """
+Extra utilities for C-FFI.
+"""
+categories = ["rust-patterns", "development-tools"]
+keywords = ["ffi", "argument"]
+documentation = "https://github.com/ANLAB-KAIST/rust-ffi-extra"
+homepage = "https://github.com/ANLAB-KAIST/rust-ffi-extra"
+repository = "https://github.com/ANLAB-KAIST/rust-ffi-extra"
+
+[dependencies]
+
+[lib]
+name = "ffi_extra"
